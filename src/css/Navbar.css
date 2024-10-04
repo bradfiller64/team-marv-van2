@@ -1,14 +1,21 @@
 .navbar {
+    box-sizing: border-box;
+    /* Ensures padding is included in total width */
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: black;
     padding: 1rem 2rem;
-    position: fixed;
-    /* Keeps navbar at top when scrolling */
+    /* Padding around the navbar */
     width: 100%;
+    /* Makes the navbar full width */
     top: 0;
+    left: 0;
+    /* Ensures it starts from the left */
+    position: fixed;
+    /* Keeps navbar at the top when scrolling */
     z-index: 1000;
+    /* Ensures it stays on top of other elements */
 }
 
 .navbar-left {

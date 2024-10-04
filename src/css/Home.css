@@ -1,0 +1,55 @@
+.home {
+    position: relative;
+    /* Allows positioning of child elements */
+    height: 100vh;
+    /* Full viewport height */
+    overflow: hidden;
+    /* Prevents overflow from background image */
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.content-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    /* White background with transparency */
+    padding: 20px;
+    border-radius: 10px;
+    /* Optional: rounded corners */
+    max-width: 600px;
+    /* Optional: limit the width */
+    margin: auto;
+    /* Center the box */
+    position: relative;
+    /* Position relative to contain z-index */
+    z-index: 2;
+    /* Ensure it's above the background */
+    top: 50%;
+    /* Center vertically */
+    transform: translateY(-50%);
+    /* Adjust for vertical centering */
+}
+
+.content-image {
+    width: 100%;
+    /* Makes the image responsive */
+    border-radius: 10px;
+    /* Optional: rounded corners for the image */
+}
+
+.content-text {
+    text-align: center;
+    margin-top: 15px;
+    /* Space between the image and text */
+    font-size: 1rem;
+    /* Adjust font size as needed */
+    color: #333;
+    /* Text color */
+}
