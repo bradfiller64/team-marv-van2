@@ -5,7 +5,7 @@ function Home() {
     return (
         <div>
             <h1>Team Marv #2 Van</h1>
-            <img src={team} alt="TeamPhoto" style={{ width: '100%', height: 'auto' }} />
+            <img src={team} alt="TeamPhoto" style={{ width: 'auto', height: 'auto' }} />
             <h2>"Marv the Marvelous" and his crew are about to embark on the mission of a lifetime!</h2>
         </div>
     );
