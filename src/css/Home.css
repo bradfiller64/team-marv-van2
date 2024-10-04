@@ -1,7 +1,7 @@
 .home {
     position: relative;
     /* Allows positioning of child elements */
-    height: 100vh;
+    min-height: 100vh;
     /* Full viewport height */
     overflow: hidden;
     /* Prevents overflow from background image */
@@ -18,15 +18,13 @@
 }
 
 .content-box {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: #e74d3cc4;
     /* White background with transparency */
-    padding: 20px;
+    padding: 1px 20px;
     border-radius: 10px;
-    /* Optional: rounded corners */
     max-width: 600px;
-    /* Optional: limit the width */
-    margin: auto;
-    /* Center the box */
+    margin: 425px auto 0;
+    /* Center the box and add space above it */
     position: relative;
     /* Position relative to contain z-index */
     z-index: 2;
@@ -35,6 +33,7 @@
     /* Center vertically */
     transform: translateY(-50%);
     /* Adjust for vertical centering */
+    text-align: center;
 }
 
 .content-image {
@@ -45,7 +44,6 @@
 }
 
 .content-text {
-    text-align: center;
     margin-top: 15px;
     /* Space between the image and text */
     font-size: 1rem;
