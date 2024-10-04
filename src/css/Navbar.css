@@ -1,0 +1,48 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 1rem 2rem;
+    position: fixed;
+    /* Keeps navbar at top when scrolling */
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar-left {
+    display: flex;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    margin-right: 2rem;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+    /* Adds a smooth color change on hover */
+}
+
+.nav-link:hover {
+    color: #f39c12;
+    /* Changes link color on hover */
+}
+
+.navbar-right .pre-order-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    /* Smooth transition */
+}
+
+.pre-order-button:hover {
+    background-color: #c0392b;
+    /* Darkens the button on hover */
+    transform: scale(1.1);
+    /* Slightly enlarges the button on hover */
+}
