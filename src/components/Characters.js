@@ -19,7 +19,9 @@ const Characters = () => {
                             <Card className="character-card">
                                 <Card.Img variant="top" src={character.icon} alt={character.name} className="character-icon" />
                                 <Card.Body>
-                                    <Card.Title className="character-name">{character.name}</Card.Title>
+                                    <div className="character-name-banner">
+                                        <Card.Title className="character-name">{character.name}</Card.Title>
+                                    </div>
                                 </Card.Body>
                             </Card>
                         </Col>
@@ -37,7 +39,9 @@ const Characters = () => {
                             <Card className="character-card">
                                 <Card.Img variant="top" src={character.icon} alt={character.name} className="character-icon" />
                                 <Card.Body>
-                                    <Card.Title className="character-name">{character.name}</Card.Title>
+                                    <div className="character-name-banner">
+                                        <Card.Title className="character-name">{character.name}</Card.Title>
+                                    </div>
                                 </Card.Body>
                             </Card>
                         </Col>
