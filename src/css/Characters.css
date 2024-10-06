@@ -1,8 +1,13 @@
 .characters {
     text-align: center;
+    padding: 20px;
 }
 
-.characters-heading,
+.characters-heading {
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+
 .unlockable-heading {
     font-size: 2rem;
     margin-bottom: 20px;
@@ -10,12 +15,17 @@
 
 .character-grid,
 .unlockable-grid {
-    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
 }
 
 .character-card {
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
+    margin: 10px;
+    max-width: 150px;
     transition: transform 0.2s;
 }
 

@@ -15,7 +15,7 @@ const Characters = () => {
                 {characterData
                     .filter(character => !character.unlockable) // Filtering out unlockable characters
                     .map(character => (
-                        <Col xs={12} sm={6} md={4} lg={3} key={character.id}>
+                        <Col key={character.id} style={{ flex: '0 0 14.2857%', maxWidth: '14.2857%' }}> {/* 100% / 7 */}
                             <Card className="character-card">
                                 <Card.Img variant="top" src={character.icon} alt={character.name} className="character-icon" />
                                 <Card.Body>
@@ -33,7 +33,7 @@ const Characters = () => {
                 {characterData
                     .filter(character => character.unlockable) // Only unlockable characters
                     .map(character => (
-                        <Col xs={12} sm={6} md={4} lg={3} key={character.id}>
+                        <Col key={character.id} style={{ flex: '0 0 14.2857%', maxWidth: '14.2857%' }}>
                             <Card className="character-card">
                                 <Card.Img variant="top" src={character.icon} alt={character.name} className="character-icon" />
                                 <Card.Body>
