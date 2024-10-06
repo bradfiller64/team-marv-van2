@@ -1,8 +1,7 @@
 // Dynamically load all icons from the 'icons' folder
-const icons = require.context('../images/icons', false, /\.(png|jpe?g|svg)$/);
-
+const icons = require.context('../images/icons', false, /\.(jpg|jpeg|png|gif|JPG)$/);
 // Dynamically load all photos from the 'photos' folder
-const photos = require.context('../images/photos', false, /\.(png|jpe?g|svg)$/);
+const photos = require.context('../images/photos', false, /\.(jpg|jpeg|png|gif|JPG)$/);
 
 const characterData = [
     {
@@ -11,7 +10,7 @@ const characterData = [
         description: "Description", //placeholder
         quote: "Quote", //placeholder
         icon: icons('./ruby-icon.jpg'),
-        photo: photos('./dennis-photo.jpg'),
+        photo: photos('./dennis-photo.JPG'),
         unlockable: false, // This character is not unlockable
     },
     {
@@ -20,7 +19,7 @@ const characterData = [
         description: "Description",
         quote: "Quote",
         icon: icons('./ruby-icon.jpg'),
-        photo: photos('./dennis-photo.jpg'),
+        photo: photos('./dennis-photo.JPG'),
         unlockable: false,
     },
     {
@@ -29,7 +28,7 @@ const characterData = [
         description: "Description",
         quote: "Quote",
         icon: icons('./ruby-icon.jpg'),
-        photo: photos('./dennis-photo.jpg'),
+        photo: photos('./dennis-photo.JPG'),
         unlockable: false,
     },
     {
@@ -38,7 +37,7 @@ const characterData = [
         description: "Description",
         quote: "I overdosed...",
         icon: icons('./ruby-icon.jpg'),
-        photo: photos('./dennis-photo.jpg'),
+        photo: photos('./dennis-photo.JPG'),
         unlockable: false,
     },
     {
@@ -47,7 +46,7 @@ const characterData = [
         description: "Description",
         quote: "Quote",
         icon: icons('./ruby-icon.jpg'),
-        photo: photos('./dennis-photo.jpg'),
+        photo: photos('./dennis-photo.JPG'),
         unlockable: false,
     },
     {
@@ -56,7 +55,7 @@ const characterData = [
         description: "Description",
         quote: "Quote",
         icon: icons('./ruby-icon.jpg'),
-        photo: photos('./dennis-photo.jpg'),
+        photo: photos('./dennis-photo.JPG'),
         unlockable: false,
     },
     {
@@ -65,7 +64,7 @@ const characterData = [
         description: "Description",
         quote: "Quote",
         icon: icons('./ruby-icon.jpg'),
-        photo: photos('./dennis-photo.jpg'),
+        photo: photos('./dennis-photo.JPG'),
         unlockable: false,
     },
     {
@@ -74,7 +73,7 @@ const characterData = [
         description: "Description",
         quote: "Quote",
         icon: icons('./ruby-icon.jpg'),
-        photo: photos('./dennis-photo.jpg'),
+        photo: photos('./dennis-photo.JPG'),
         unlockable: false,
     },
     {
@@ -83,7 +82,7 @@ const characterData = [
         description: "Description",
         quote: "Quote",
         icon: icons('./ruby-icon.jpg'),
-        photo: photos('./dennis-photo.jpg'),
+        photo: photos('./dennis-photo.JPG'),
         unlockable: false,
     },
     {
@@ -92,7 +91,7 @@ const characterData = [
         description: "Description",
         quote: "Quote",
         icon: icons('./ruby-icon.jpg'),
-        photo: photos('./dennis-photo.jpg'),
+        photo: photos('./dennis-photo.JPG'),
         unlockable: false,
     },
     {
@@ -101,7 +100,7 @@ const characterData = [
         description: "Description",
         quote: "Quote",
         icon: icons('./ruby-icon.jpg'),
-        photo: photos('./dennis-photo.jpg'),
+        photo: photos('./dennis-photo.JPG'),
         unlockable: false,
     },
     {
@@ -110,7 +109,7 @@ const characterData = [
         description: "Description",
         quote: "Quote",
         icon: icons('./ruby-icon.jpg'),
-        photo: photos('./dennis-photo.jpg'),
+        photo: photos('./dennis-photo.JPG'),
         unlockable: false,
     },
     {
@@ -119,7 +118,7 @@ const characterData = [
         description: "Description",
         quote: "Quote",
         icon: icons('./ruby-icon.jpg'),
-        photo: photos('./dennis-photo.jpg'),
+        photo: photos('./dennis-photo.JPG'),
         unlockable: false,
     },
     {
@@ -128,7 +127,7 @@ const characterData = [
         description: "Description",
         quote: "Quote",
         icon: icons('./ruby-icon.jpg'),
-        photo: photos('./dennis-photo.jpg'),
+        photo: photos('./dennis-photo.JPG'),
         unlockable: false,
     },
     {
@@ -137,7 +136,7 @@ const characterData = [
         description: "Description",
         quote: "Quote",
         icon: icons('./ruby-icon.jpg'),
-        photo: photos('./dennis-photo.jpg'),
+        photo: photos('./dennis-photo.JPG'),
         unlockable: true,
     },
     {
@@ -146,7 +145,7 @@ const characterData = [
         description: "Description",
         quote: "Quote",
         icon: icons('./ruby-icon.jpg'),
-        photo: photos('./dennis-photo.jpg'),
+        photo: photos('./dennis-photo.JPG'),
         unlockable: true,
     },
     {
@@ -155,7 +154,7 @@ const characterData = [
         description: "Description",
         quote: "Quote",
         icon: icons('./ruby-icon.jpg'),
-        photo: photos('./dennis-photo.jpg'),
+        photo: photos('./dennis-photo.JPG'),
         unlockable: true,
     },
     {
@@ -164,7 +163,7 @@ const characterData = [
         description: "Description",
         quote: "Quote",
         icon: icons('./ruby-icon.jpg'),
-        photo: photos('./dennis-photo.jpg'),
+        photo: photos('./dennis-photo.JPG'),
         unlockable: true,
     },
 ];
