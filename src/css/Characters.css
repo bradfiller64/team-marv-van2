@@ -1,0 +1,40 @@
+.characters {
+    text-align: center;
+}
+
+.characters-heading,
+.unlockable-heading {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    /* Add fun styling here */
+}
+
+.character-grid,
+.unlockable-grid {
+    margin: 0 auto;
+}
+
+.character-card {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    transition: transform 0.2s;
+}
+
+.character-card:hover {
+    transform: scale(1.05);
+    /* Slightly enlarge on hover */
+}
+
+.character-icon {
+    width: 100%;
+    /* Makes the icon responsive */
+    border-radius: 10px;
+}
+
+.character-name {
+    font-size: 1.2rem;
+    /* Adjust font size as needed */
+    margin-top: 10px;
+    text-align: center;
+    /* Center the text */
+}

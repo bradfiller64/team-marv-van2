@@ -3,6 +3,8 @@ import { Card, Row, Col } from 'react-bootstrap';
 import '../css/Characters.css';
 import characterData from '../data/characterData';
 
+console.log('Characters component loaded');
+
 const Characters = () => {
     return (
         <div className="characters">
