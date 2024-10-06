@@ -19,8 +19,8 @@ const Home = () => {
                 <h1>Team Marv #2 Van</h1>
                 <img src={team} alt="team" className="content-image" />
                 <p className="content-text">
-                    <b>Join "Marv the Marvelous" and his crew of missionaries as they embark on an epic
-                        excursion to Mexico to save souls and cast out demons.</b>
+                    <b>Join "Marv the Marvelous" and his ragtag crew of missionaries as they embark on an epic
+                        excursion to the land of Mexico to save souls and cast out demons.</b>
                 </p>
             </div>
         </div>
