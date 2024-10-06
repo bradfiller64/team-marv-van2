@@ -1,8 +1,8 @@
 // Dynamically load all icons from the 'icons' folder
-const icons = require.context('./images/icons', false, /\.(png|jpe?g|svg)$/);
+const icons = require.context('../images/icons', false, /\.(png|jpe?g|svg)$/);
 
 // Dynamically load all photos from the 'photos' folder
-const photos = require.context('./images/photos', false, /\.(png|jpe?g|svg)$/);
+const photos = require.context('../images/photos', false, /\.(png|jpe?g|svg)$/);
 
 const characterData = [
     {
