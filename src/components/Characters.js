@@ -1,5 +1,6 @@
 import React from 'react';
 import { Card, Row, Col } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import '../css/Characters.css';
 import characterData from '../data/characterData';
 
@@ -17,14 +18,16 @@ const Characters = () => {
                         .filter(character => !character.unlockable) // Filtering out unlockable characters
                         .map(character => (
                             <Col key={character.id} style={{ flex: '0 0 14.2857%', maxWidth: '14.2857%' }}> {/* 100% / 7 */}
-                                <Card className="character-card">
-                                    <Card.Img variant="top" src={character.icon} alt={character.name} className="character-icon" />
-                                    <Card.Body>
-                                        <div className="character-name-banner">
-                                            <Card.Title className="character-name">{character.name}</Card.Title>
-                                        </div>
-                                    </Card.Body>
-                                </Card>
+                                <Link to={`/character/${character.id}`} style={{ textDecoration: 'none', color: 'inherit' }}> {/* This makes sure the link has no underline or different color */}
+                                    <Card className="character-card">
+                                        <Card.Img variant="top" src={character.icon} alt={character.name} className="character-icon" />
+                                        <Card.Body>
+                                            <div className="character-name-banner">
+                                                <Card.Title className="character-name">{character.name}</Card.Title>
+                                            </div>
+                                        </Card.Body>
+                                    </Card>
+                                </Link>
                             </Col>
                         ))}
                 </Row>
@@ -37,14 +40,16 @@ const Characters = () => {
                         .filter(character => character.unlockable) // Only unlockable characters
                         .map(character => (
                             <Col key={character.id} style={{ flex: '0 0 14.2857%', maxWidth: '14.2857%' }}>
-                                <Card className="character-card">
-                                    <Card.Img variant="top" src={character.icon} alt={character.name} className="character-icon" />
-                                    <Card.Body>
-                                        <div className="character-name-banner">
-                                            <Card.Title className="character-name">{character.name}</Card.Title>
-                                        </div>
-                                    </Card.Body>
-                                </Card>
+                                <Link to={`/character/${character.id}`} style={{ textDecoration: 'none', color: 'inherit' }}>
+                                    <Card className="character-card">
+                                        <Card.Img variant="top" src={character.icon} alt={character.name} className="character-icon" />
+                                        <Card.Body>
+                                            <div className="character-name-banner">
+                                                <Card.Title className="character-name">{character.name}</Card.Title>
+                                            </div>
+                                        </Card.Body>
+                                    </Card>
+                                </Link>
                             </Col>
                         ))}
                 </Row>

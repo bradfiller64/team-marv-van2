@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import '../css/CharacterBio.css'; // Assuming you'll style it in a separate CSS file
-import characterData from '../data/characterData'; // Import character data
+import '../css/CharacterBio.css';
+import characterData from '../data/characterData';
 
 const CharacterBio = () => {
     const { id } = useParams(); // This retrieves the character ID from the URL params
