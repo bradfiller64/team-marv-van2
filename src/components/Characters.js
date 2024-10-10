@@ -18,7 +18,7 @@ const Characters = () => {
                         .filter(character => !character.unlockable) // Filtering out unlockable characters
                         .map(character => (
                             <Col key={character.id} style={{ flex: '0 0 14.2857%', maxWidth: '14.2857%' }}> {/* 100% / 7 */}
-                                <Link to={`/character/${character.id}`} style={{ textDecoration: 'none', color: 'inherit' }}> {/* This makes sure the link has no underline or different color */}
+                                <Link to={`/character/${character.id}`} style={{ textDecoration: 'none', color: 'inherit' }}> {/*This makes sure the link has no underline or different color */}
                                     <Card className="character-card">
                                         <Card.Img variant="top" src={character.icon} alt={character.name} className="character-icon" />
                                         <Card.Body>
