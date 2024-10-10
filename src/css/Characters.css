@@ -1,10 +1,10 @@
 .character-screen {
     margin: 0;
-    font-family: 'Press Start 2P', cursive;
     min-height: 100vh;
     overflow: auto;
     animation: gradientAnimation 20s ease infinite;
     background: linear-gradient(45deg, #5a7cbd, #7a2c94, #f8a83b, #f6d338);
+    background-size: 400% 400%;
 }
 
 @keyframes gradientAnimation {
@@ -35,12 +35,16 @@
 }
 
 .characters-heading {
+    color: white;
+    text-shadow: 2px 2px 0px black;
     margin-top: 100px;
     margin-bottom: 25px;
 }
 
 .unlockable-heading {
     font-size: 2rem;
+    color: white;
+    text-shadow: 2px 2px 0px black;
     margin-top: 100px;
     margin-bottom: 20px;
 }

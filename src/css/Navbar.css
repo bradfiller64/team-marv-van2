@@ -44,7 +44,6 @@
     font-size: 1.5rem;
     font-weight: bold;
     border-radius: 12px;
-    /* Slightly more rounded corners */
     text-shadow: 2px 2px 0px black;
     /* Adds a black drop shadow to the text */
     cursor: pointer;

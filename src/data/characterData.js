@@ -12,6 +12,7 @@ const characterData = [
         icon: icons('./ruby-icon.jpg'),
         photo: photos('./dennis-photo.JPG'),
         unlockable: false, // This character is not unlockable
+        howToUnlock: null
     },
     {
         id: 2,
@@ -21,6 +22,7 @@ const characterData = [
         icon: icons('./ruby-icon.jpg'),
         photo: photos('./dennis-photo.JPG'),
         unlockable: false,
+        howToUnlock: null
     },
     {
         id: 3,
@@ -30,6 +32,7 @@ const characterData = [
         icon: icons('./ruby-icon.jpg'),
         photo: photos('./dennis-photo.JPG'),
         unlockable: false,
+        howToUnlock: null
     },
     {
         id: 4,
@@ -39,6 +42,7 @@ const characterData = [
         icon: icons('./ruby-icon.jpg'),
         photo: photos('./dennis-photo.JPG'),
         unlockable: false,
+        howToUnlock: null
     },
     {
         id: 5,
@@ -48,6 +52,7 @@ const characterData = [
         icon: icons('./ruby-icon.jpg'),
         photo: photos('./dennis-photo.JPG'),
         unlockable: false,
+        howToUnlock: null
     },
     {
         id: 6,
@@ -57,6 +62,7 @@ const characterData = [
         icon: icons('./ruby-icon.jpg'),
         photo: photos('./dennis-photo.JPG'),
         unlockable: false,
+        howToUnlock: null
     },
     {
         id: 7,
@@ -66,6 +72,7 @@ const characterData = [
         icon: icons('./ruby-icon.jpg'),
         photo: photos('./dennis-photo.JPG'),
         unlockable: false,
+        howToUnlock: null
     },
     {
         id: 8,
@@ -75,6 +82,7 @@ const characterData = [
         icon: icons('./ruby-icon.jpg'),
         photo: photos('./dennis-photo.JPG'),
         unlockable: false,
+        howToUnlock: null
     },
     {
         id: 9,
@@ -84,6 +92,7 @@ const characterData = [
         icon: icons('./ruby-icon.jpg'),
         photo: photos('./dennis-photo.JPG'),
         unlockable: false,
+        howToUnlock: null
     },
     {
         id: 10,
@@ -93,6 +102,7 @@ const characterData = [
         icon: icons('./ruby-icon.jpg'),
         photo: photos('./dennis-photo.JPG'),
         unlockable: false,
+        howToUnlock: null
     },
     {
         id: 11,
@@ -102,6 +112,7 @@ const characterData = [
         icon: icons('./ruby-icon.jpg'),
         photo: photos('./dennis-photo.JPG'),
         unlockable: false,
+        howToUnlock: null
     },
     {
         id: 12,
@@ -111,6 +122,7 @@ const characterData = [
         icon: icons('./ruby-icon.jpg'),
         photo: photos('./dennis-photo.JPG'),
         unlockable: false,
+        howToUnlock: null
     },
     {
         id: 13,
@@ -120,6 +132,7 @@ const characterData = [
         icon: icons('./ruby-icon.jpg'),
         photo: photos('./dennis-photo.JPG'),
         unlockable: false,
+        howToUnlock: null
     },
     {
         id: 14,
@@ -129,6 +142,7 @@ const characterData = [
         icon: icons('./ruby-icon.jpg'),
         photo: photos('./dennis-photo.JPG'),
         unlockable: false,
+        howToUnlock: null
     },
     {
         id: 15,
@@ -138,6 +152,7 @@ const characterData = [
         icon: icons('./ruby-icon.jpg'),
         photo: photos('./dennis-photo.JPG'),
         unlockable: true,
+        howToUnlock: ''
     },
     {
         id: 16,
@@ -147,6 +162,7 @@ const characterData = [
         icon: icons('./ruby-icon.jpg'),
         photo: photos('./dennis-photo.JPG'),
         unlockable: true,
+        howToUnlock: ''
     },
     {
         id: 17,
@@ -156,6 +172,7 @@ const characterData = [
         icon: icons('./ruby-icon.jpg'),
         photo: photos('./dennis-photo.JPG'),
         unlockable: true,
+        howToUnlock: ''
     },
     {
         id: 18,
@@ -165,6 +182,7 @@ const characterData = [
         icon: icons('./ruby-icon.jpg'),
         photo: photos('./dennis-photo.JPG'),
         unlockable: true,
+        howToUnlock: ''
     },
 ];
 

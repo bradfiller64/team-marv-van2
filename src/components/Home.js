@@ -16,7 +16,7 @@ const Home = () => {
                 }}
             ></div>
             <div className="content-box">
-                <h1>Team Marv #2 Van</h1>
+                <h2>Team Marv #2 Van</h2>
                 <img src={team} alt="team" className="content-image" />
                 <p className="content-text">
                     <b>Join "Marv the Marvelous" and his ragtag crew of missionaries as they embark on an epic
