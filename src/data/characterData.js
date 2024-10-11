@@ -9,7 +9,7 @@ const characterData = [
         name: "Marv",
         description: "Description", //placeholder
         quote: "Quote", //placeholder
-        icon: icons('./ruby-icon.jpg'),
+        icon: icons('./marv-icon.jpg'),
         photo: photos('./dennis-photo.JPG'),
         unlockable: false, // This character is not unlockable
         howToUnlock: null
@@ -19,7 +19,7 @@ const characterData = [
         name: "Brad",
         description: "Description",
         quote: "Quote",
-        icon: icons('./ruby-icon.jpg'),
+        icon: icons('./brad-icon.jpg'),
         photo: photos('./dennis-photo.JPG'),
         unlockable: false,
         howToUnlock: null
@@ -29,7 +29,7 @@ const characterData = [
         name: "Blake",
         description: "Description",
         quote: "Quote",
-        icon: icons('./ruby-icon.jpg'),
+        icon: icons('./blake-icon.jpg'),
         photo: photos('./dennis-photo.JPG'),
         unlockable: false,
         howToUnlock: null
@@ -39,7 +39,7 @@ const characterData = [
         name: "Tim",
         description: "Description",
         quote: "I overdosed...",
-        icon: icons('./ruby-icon.jpg'),
+        icon: icons('./tim-icon.jpg'),
         photo: photos('./dennis-photo.JPG'),
         unlockable: false,
         howToUnlock: null
@@ -49,7 +49,7 @@ const characterData = [
         name: "Kristina",
         description: "Description",
         quote: "Quote",
-        icon: icons('./ruby-icon.jpg'),
+        icon: icons('./kristina-icon.jpg'),
         photo: photos('./dennis-photo.JPG'),
         unlockable: false,
         howToUnlock: null
@@ -59,7 +59,7 @@ const characterData = [
         name: "Amy",
         description: "Description",
         quote: "Quote",
-        icon: icons('./ruby-icon.jpg'),
+        icon: icons('./amy-icon.jpg'),
         photo: photos('./dennis-photo.JPG'),
         unlockable: false,
         howToUnlock: null
@@ -69,7 +69,7 @@ const characterData = [
         name: "Julianna",
         description: "Description",
         quote: "Quote",
-        icon: icons('./ruby-icon.jpg'),
+        icon: icons('./julianna-icon.jpg'),
         photo: photos('./dennis-photo.JPG'),
         unlockable: false,
         howToUnlock: null
@@ -79,7 +79,7 @@ const characterData = [
         name: "Sophia",
         description: "Description",
         quote: "Quote",
-        icon: icons('./ruby-icon.jpg'),
+        icon: icons('./sophia-icon.jpg'),
         photo: photos('./dennis-photo.JPG'),
         unlockable: false,
         howToUnlock: null
@@ -89,7 +89,7 @@ const characterData = [
         name: "Liya",
         description: "Description",
         quote: "Quote",
-        icon: icons('./ruby-icon.jpg'),
+        icon: icons('./liya-icon.jpg'),
         photo: photos('./dennis-photo.JPG'),
         unlockable: false,
         howToUnlock: null
@@ -99,7 +99,7 @@ const characterData = [
         name: "Victoria",
         description: "Description",
         quote: "Quote",
-        icon: icons('./ruby-icon.jpg'),
+        icon: icons('./victoria-icon.jpg'),
         photo: photos('./dennis-photo.JPG'),
         unlockable: false,
         howToUnlock: null
@@ -109,7 +109,7 @@ const characterData = [
         name: "Dennis",
         description: "Description",
         quote: "Quote",
-        icon: icons('./ruby-icon.jpg'),
+        icon: icons('./dennis-icon.jpg'),
         photo: photos('./dennis-photo.JPG'),
         unlockable: false,
         howToUnlock: null
@@ -119,7 +119,7 @@ const characterData = [
         name: "Henry",
         description: "Description",
         quote: "Quote",
-        icon: icons('./ruby-icon.jpg'),
+        icon: icons('./henry-icon.jpg'),
         photo: photos('./dennis-photo.JPG'),
         unlockable: false,
         howToUnlock: null
@@ -129,7 +129,7 @@ const characterData = [
         name: "Eddie",
         description: "Description",
         quote: "Quote",
-        icon: icons('./ruby-icon.jpg'),
+        icon: icons('./eddie-icon.jpg'),
         photo: photos('./dennis-photo.JPG'),
         unlockable: false,
         howToUnlock: null
@@ -139,7 +139,7 @@ const characterData = [
         name: "Gabriel",
         description: "Description",
         quote: "Quote",
-        icon: icons('./ruby-icon.jpg'),
+        icon: icons('./gabriel-icon.jpg'),
         photo: photos('./dennis-photo.JPG'),
         unlockable: false,
         howToUnlock: null
@@ -149,7 +149,7 @@ const characterData = [
         name: "Nazar",
         description: "Description",
         quote: "Quote",
-        icon: icons('./ruby-icon.jpg'),
+        icon: icons('./nazar-icon.jpg'),
         photo: photos('./dennis-photo.JPG'),
         unlockable: true,
         howToUnlock: ''
@@ -159,7 +159,7 @@ const characterData = [
         name: "Alonso",
         description: "Description",
         quote: "Quote",
-        icon: icons('./ruby-icon.jpg'),
+        icon: icons('./alonso-icon.jpg'),
         photo: photos('./dennis-photo.JPG'),
         unlockable: true,
         howToUnlock: ''
@@ -179,7 +179,7 @@ const characterData = [
         name: "Alinuh",
         description: "Description",
         quote: "Quote",
-        icon: icons('./ruby-icon.jpg'),
+        icon: icons('./alinuh-icon.jpg'),
         photo: photos('./dennis-photo.JPG'),
         unlockable: true,
         howToUnlock: ''
