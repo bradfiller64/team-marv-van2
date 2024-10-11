@@ -139,7 +139,7 @@ const characterData = [
         name: "Gabriel",
         description: "Description",
         quote: "Quote",
-        icon: icons('./gabriel-icon.jpg'),
+        icon: icons('./gabriel-icon.JPG'),
         photo: photos('./dennis-photo.JPG'),
         unlockable: false,
         howToUnlock: null
