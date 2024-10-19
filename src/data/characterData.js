@@ -184,6 +184,16 @@ const characterData = [
         unlockable: true,
         howToUnlock: ''
     },
+    {
+        id: 19,
+        name: "Erica",
+        description: "Description",
+        quote: "That is why we need community people!",
+        icon: icons('./erica-icon.jpg'),
+        photo: photos('./dennis-photo.JPG'),
+        unlockable: true,
+        howToUnlock: ''
+    },
 ];
 
 export default characterData;
