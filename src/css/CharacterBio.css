@@ -1,26 +1,55 @@
 .character-bio-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    color: #fff;
+    margin: 0;
+    min-height: 100vh;
+    overflow: auto;
+    animation: gradientAnimation 20s ease infinite;
+    background: linear-gradient(45deg, #5a7cbd, #7a2c94, #f8a83b, #f6d338);
+    background-size: 400% 400%;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    25% {
+        background-position: 100% 50%;
+    }
+
+    50% {
+        background-position: 0% 50%;
+    }
+
+    75% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 .character-name {
     font-size: 2rem;
-    margin-bottom: 10px;
+    margin-top: 100px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: white;
 }
 
 .character-quote {
     font-style: italic;
     font-size: 1.2rem;
     margin-bottom: 20px;
+    text-align: center;
+    color: white;
 }
 
 .character-card {
-    position: relative;
-    width: 300px;
-    margin-bottom: 20px;
+    display: block;
+    margin: 30;
+    max-width: 200px;
+    height: auto;
 }
 
 .character-photo {
